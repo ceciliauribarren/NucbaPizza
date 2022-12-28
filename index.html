@@ -1,0 +1,346 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./Assets/Header/nucbazappiicon 1.svg" alt="logo" />
+      </div>
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="Assets/Header/bx-menu.svg" alt="menu" class="label__img" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
+        <div class="list">
+          <ul class="navbar-list">
+            <li>
+              <a class="home" href="#"
+                ><img
+                  class="casita"
+                  src="./Assets/Header/bxs-home.svg"
+                  alt="Home"
+                />Home</a
+              >
+            </li>
+            <li><img src="Assets/Header/bx-cart.svg" alt="Cart" /></li>
+            <li>
+              <img
+                class="usernaranja"
+                src="./Assets/Header/bxs-user.svg"
+                alt="Profile"
+              />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="hero-title">
+          <h1>Si tenes Zappi,</h1>
+          <h2>Tenes Nucba.</h2>
+          <p>Buscá lo que quieras y nucba te quedes sin comida.</p>
+          <label for="label-button"></label>
+          <button id="label-button" name="label-button">Ver más</button>
+        </div>
+        <div class="img-pizzas">
+          <div id="pizza-hero-1"></div>
+          <div id="pizza-hero-2"></div>
+        </div>
+      </section>
+      
+      <section id="recom">
+        <h2 class="section-title">Hoy te recomendamos</h2>
+        <div id="recom-cards">
+           <div class="recom-cards-container">
+              <img src="./Assets/Recomendacion/PhotoMenu-1.png" alt="pizza cortada en porciones">
+              <div class="recomcards-info">
+              <h3>Bennazianna</h3>
+              <p>La más completa</p>
+              <div class="gradient-price">$3650</div>
+              </div>
+              <div class="add-buttom">Agregar</div>
+             </div>
+             
+
+          <div class="recom-cards-container">
+              <img src="./Assets/Recomendacion/PhotoMenu-1.png" alt="horno a leña encendido">
+           <div class="recomcards-info">
+              <h3>Tronco-Pizza</h3>
+              <p>Para todo el día</p>
+              <div class="gradient-price">$870</div>
+              </div>
+           <div class="add-buttom">Agregar</div>
+           </div>
+           
+          
+          <div class="recom-cards-container">
+              <img src="./Assets/Recomendacion/PhotoMenu-3.png" alt="papas fritas en plato">
+              <div class="recomcards-info">
+              <h3>Papas | Provenzal</h3>
+              <p>Van como piña</p>
+              <div class="gradient-price">$360</div>
+              </div>
+              <div class="add-buttom">Agregar</div>
+          </div>
+        </div>  
+       
+      </section>
+      <section id="categorias" class="categorias">
+        <h3>Categorías</h3>
+        <div id="categorias-card-container" class="categorias-card-container">
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/image 34.svg"
+              alt="pizzas-img"
+              id="pizzas-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/image 34.svg"
+              alt="pizzas2-img"
+              id="pizzas2-img"
+              class="img-secundaria-pizza"
+            />
+            <h4 class="categorias-name">Pizzas</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/burger 1.svg"
+              alt="burgers-img"
+              id="burgers-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/burger 1.svg"
+              alt="burgers2-img"
+              id="burgers2-img"
+              class="img-secundaria"
+            />
+            <h4 class="categorias-name">Hamburguesas</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/fries 2.svg"
+              alt="fries-img"
+              id="fries-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/fries 2.svg"
+              alt="fries2-img"
+              id="fries2-img"
+              class="img-secundaria"
+            />
+            <h4 class="categorias-name">Napapuki</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/pizza 2.svg"
+              alt="individuales-img"
+              id="individuales-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/pizza 2.svg"
+              alt="individuales2-img"
+              id="individuales2-img"
+              class="img-secundaria"
+            />
+            <h4 class="categorias-name">Individuales</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/buritto 1.svg"
+              alt="wraps-img"
+              id="wraps-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/buritto 1.svg"
+              alt="wraps2-img"
+              id="wraps2-img"
+              class="img-secundaria"
+            />
+            <h4 class="categorias-name">Wraps</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/taco 1.svg"
+              alt="mexican-img"
+              id="mexican-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/taco 1.svg"
+              alt="mexican2-img"
+              id="mexican2-img"
+              class="img-secundaria"
+            />
+            <h4 class="categorias-name">Mexican Food</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+          <div class="categorias-card">
+            <img
+              src="./Assets/Category/float 1.svg"
+              alt="batidos-img"
+              id="batidos-img"
+              class="img-principal"
+            />
+            <img
+              src="./Assets/Category/float 1.svg"
+              alt="batidos2-img"
+              id="batidos2-img"
+              class="img-secundaria"
+            />
+            <h4 class="categorias-name">Batidukis</h4>
+            <div class="categorias-decoration"></div>
+          </div>
+        </div>
+      </section>
+      <section id="lo-mas-popular">
+        <h2>Lo más popular</h2>
+        <div class="lo-mas-popular-section">
+          <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-1.svg" alt="pizza" class="foto-pizza">
+            
+            <div class="tipo-producto">
+              <p >La Mr. Pit</p>
+              <p class="tipo-producto-nombre">Sólo para expertos</p>
+            </div>
+            
+            <div class="popular-pizzas-compras">
+                <span>$ 350</span>
+                <button>Agregar</button>
+            </div>
+            
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-2.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+              <p >¡Q' Jamone!</h5>
+            <p class="tipo-producto-nombre">c/jamón crudo</p>
+            </div>
+            <div class="popular-pizzas-compras">
+                <span>$ 350</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+            </div>
+            
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-3.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+            <p class=>La Charly García</p>
+            <p class="tipo-producto-nombre">¡BASTA!</p>
+            </div>
+            <div class="popular-pizzas-compras">
+                <span>$ 380</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+               
+            </div>
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-4.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+              <p >La Maradona</p>
+              <p class="tipo-producto-nombre">¡Eterna!</p>
+              </div>
+            <div class="popular-pizzas-compras">
+                <span>$ 450</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+               
+            </div>
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-5.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+              <p>Picantovich</p>
+              <p class="tipo-producto-nombre">Pica 2 veces</p>
+              </div>
+           
+            <div class="popular-pizzas-compras">
+                <span>$ 750</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+               
+            </div>
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-6.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+              <p>La Hasbulla</p>
+              <p class="tipo-producto-nombre">En honor al 1</p>
+              </div>
+           
+            <div class="popular-pizzas-compras">
+                <span>$ 990</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+               
+            </div>
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu-7.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+              <p>Leo Messi</p>
+            <p class="tipo-producto-nombre">¡De pie señores!</p>
+            </div>
+            
+            <div class="popular-pizzas-compras">
+                <span>$ 10</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+               
+            </div>
+        </div>
+        <div class="popular-pizzas">
+            <img src="./assets/Popular/Photo Menu.svg" alt="pizza" class="foto-pizza">
+            <div class="tipo-producto">
+              <p >Nick Gi</p>
+              <p class="tipo-producto-nombre">La que desaparece</p>
+              </div>
+            <div class="popular-pizzas-compras">
+                <span>$ Gratis</span>
+                <label for="agregar"></label>
+                <button id="agregar">Agregar</button>
+               
+            </div>
+        </div>
+        </div>
+      
+  </main>
+  <footer>
+      <div>
+          <ul class="footer-links">
+              <li><a href="#">Términos de Uso</a></li>
+              <li><a href="#">Trabajá con Nosotros</a></li>
+              <li><a href="#">Soporte</a></li>
+          </ul>
+      </div>
+      <p>Hecho️ con ❤️ en <span>NUCBAZAPPI</span></p>
+  </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+@media (max-width: 952px) {
+  /* Tablet */
+  .nav__label {
+    display: block;
+    cursor: pointer;
+    padding-right: 50px;
+  }
+
+  /** Header */
+  .list ul {
+    position: absolute;
+    top: 120px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--background-cl);
+    border: 1px solid #ffff;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .usernaranja {
+    padding: 0;
+  }
+  /**  Hero */
+  #hero {
+    flex-wrap: wrap;
+  }
+
+  .hero-title {
+    display: flex;
+  }
+
+  .hero-title > h1 {
+    font-size: 3rem;
+  }
+  .hero-title > h2 {
+    font-size: 2.5rem;
+  }
+  .hero-title > p {
+    font-size: 1.1rem;
+  }
+  /* #label-button {
+    left: 25%;
+  } */
+
+  .img-pizzas {
+    padding-top: 50px;
+  }
+}
